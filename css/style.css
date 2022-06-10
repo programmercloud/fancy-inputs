@@ -4,12 +4,6 @@
 
 ============================================*/
 
-form button,
-form .question label,
-form .question input[type="text"] {
-  transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
-}
-
 * {
   font-family: Helvetica, sans-serif;
   font-weight: light;
@@ -32,6 +26,11 @@ form {
   margin: 40px 0;
   left: 50%;
   transform: translate(-50%, 0);
+}
+form button,
+form .question label,
+form .question input[type="text"] {
+  transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
 }
 form h1 {
   color: #ff4a56;
